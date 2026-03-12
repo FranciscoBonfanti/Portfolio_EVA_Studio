@@ -14,14 +14,27 @@ export default function Hero() {
           </p>
 
           <h1 className="reveal hero-title" data-reveal data-delay="60">
-            <span className="hero-rotator" id="heroRotator" aria-label="Crea tu Web">
-              <span className="hero-rotator__word gradient" id="heroRotatorWord" data-i18n="hero.word1">
+            <span
+              className="hero-rotator"
+              id="heroRotator"
+              aria-label="Crea tu Web"
+            >
+              <span
+                className="hero-rotator__word gradient"
+                id="heroRotatorWord"
+                data-i18n="hero.word1"
+              >
                 CREA
               </span>
             </span>
           </h1>
 
-          <p className="muted reveal" data-reveal data-delay="120" data-i18n="hero.subtitle">
+          <p
+            className="muted reveal"
+            data-reveal
+            data-delay="120"
+            data-i18n="hero.subtitle"
+          >
             Sistemas Digitales & Automatización
           </p>
 
@@ -41,28 +54,42 @@ export default function Hero() {
               <span className="stat-num counter" data-to="30" data-suffix="+">
                 0
               </span>
-              <span className="stat-label" data-i18n="hero.stats.delivered">proyectos entregados</span>
+              <span
+                className="stat-label"
+                data-i18n="hero.stats.delivered"
+              >
+                proyectos entregados
+              </span>
             </div>
+
             <div className="stat tilt" data-tilt>
               <span className="stat-num">7–14</span>
-              <span className="stat-label" data-i18n="hero.stats.days">días promedio</span>
+              <span className="stat-label" data-i18n="hero.stats.days">
+                días promedio
+              </span>
             </div>
+
             <div className="stat tilt" data-tilt>
               <span className="stat-num counter" data-to="100" data-suffix="%">
                 0
               </span>
-              <span className="stat-label" data-i18n="hero.stats.responsive">responsive</span>
+              <span
+                className="stat-label"
+                data-i18n="hero.stats.responsive"
+              >
+                responsive
+              </span>
             </div>
           </div>
         </div>
 
-        <div className="hero-media reveal" data-reveal data-delay="140" aria-hidden="true">
+        <div className="hero-media reveal" data-reveal data-delay="140">
           <div className="model-card">
             <model-viewer
-              autoplay
               class="model-viewer"
-              src="../../public/img/eve_wall-e__eva/scene.gltf"
+              src="/img/eve_wall-e__eva/scene.gltf"
               alt="Modelo 3D de EVA"
+              autoplay
               camera-controls
               auto-rotate
               auto-rotate-delay="0"

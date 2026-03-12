@@ -821,7 +821,7 @@ h3 {
 
 /* Tamaño uniforme */
 .tech-strip__item img {
-  height: 42px;
+  height: 50px;
   /* <- mismo tamaño para todos */
   width: auto;
   max-width: 180px;
@@ -834,7 +834,7 @@ h3 {
 /* Se ven 3 aprox: limitamos el ancho del viewport */
 @media (min-width: 981px) {
   .tech-strip__viewport {
-    max-width: 720px;
+    max-width: 1000px;
     /* ~3 logos visibles */
     margin: 0 auto;
   }
