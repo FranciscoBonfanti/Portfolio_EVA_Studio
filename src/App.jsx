@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TechStrip from "./components/TechStrip";
 import ProcessShowcase from "./components/seccionProceso/ProcessShowcase";
-// import Process from "./components/Process";
+import Carrusel from "./components/ProjectsCarousel";
 import Benefits from "./components/Benefits";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
@@ -47,7 +47,7 @@ export default function App() {
         <Hero />
         <TechStrip />
         <ProcessShowcase />
-        {/* <Process /> */}
+        <Carrusel />
         <Benefits />
         <Services />
         <Pricing />
