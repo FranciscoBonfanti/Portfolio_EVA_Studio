@@ -16,6 +16,7 @@ import Faq from "./components/Faq";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 import LoadingScreen from "./components/pantallaDeCarga/LoadingScreen";
+import Tecnologias from "./components/herramientas/ToolsSection";
 
 import { useI18n } from "./hooks/useI18n";
 
@@ -37,6 +38,7 @@ export default function App() {
 
   return (
     <>
+
       <BackgroundFx />
       <CursorGlow />
 
@@ -48,6 +50,7 @@ export default function App() {
         <TechStrip />
         <ProcessShowcase />
         <Carrusel />
+        <Tecnologias />
         <Benefits />
         <Services />
         <Pricing />
